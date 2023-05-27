@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+a:visited{
+    color: blue;
+}
+.nav{
+    background-color:lightskyblue;
+    color: aliceblue;
+    height: 50px;
+}
+.flex_nav_container{
+    width: 800px;
+    margin: 0 auto;
+}
+.nav_title{
+    font-weight: bold;
+}
+.nav_links{
+    width: 65%;
+    list-style-type: none;
+    font-size: 25px;
+}
+.nav_links li a{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 70px;
+}
+.nav_links a:visited{
+    color: white;
+}
+.nav, .flex_nav_container, .nav_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.city-weather{
+    display:flex;
+    justify-content: space-between;
+    width:800px;
+    margin:0px auto;
+    border-bottom: 2px solid black;
+    align-items:center;
+}
+.city-weather h2{
+    font-weight: normal;
+    display:flex;
+}
+.temperature, .degrees{
+    display: flex;
+}
+.weather_img{
+    height:100px;
+    width:100px;
+    margin:10px;
+    border-radius: 100%;
+}
+.today, .tomorrow, .friday, .saturday{
+    background-color: rgb(224, 224, 224);
+    width: 185px;
+    height: 400px;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather_display{
+    display:flex;
+    justify-content: space-around;
+    width:800px;
+    margin:0px auto;
+}
+.highlow{
+    list-style-type: none;
+    display:flex;
+    margin:30px;
+    font-weight: bold;
+}
+.weekly_forecast{
+    display: flex;
+}
+.high{
+    color:red;
+    margin-right:40px;
+}
+.low{
+    color:blue;
+    margin: left 40px;
+}
+h2{
+    margin:10px;
+    font-weight:normal;
+}
+.message{
+    display:flex;
+    align-items:center;
+    margin:10px;
+    padding: 15px;
+    width: 500px;
+    border: 3px solid;
+    background-color: #ddd;
+    box-shadow: 4px 4px 4px grey;
+    position: fixed; 
+    bottom: 80px;
+    left: 450px;
+}
+.header{
+    font-weight: 900;
+    display: flex;
+}
+.msg_btn{
+    height: 30px;
+    width: 260px;
+    background-color: cornflowerblue;
+    box-shadow: 1px 2px 2px;
+}
+.msg_img{
+    height:60px;
+}
